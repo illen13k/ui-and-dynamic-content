@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #112b4e;
+    font-family: "Archivo", sans-serif;
+    font-weight: 800;
+    color: #112b4e;
+    background-image: url(../img/texture.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: 45rem 220%;
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+}
+
+body > main > div > div.masthead > p > i {
+    padding-top: 5rem;
+}
+
+.widget {
+    max-width: 45rem;
+    margin: 0 auto;
+}
+
+.masthead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.masthead p {
+    font-size: 12em;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    font-size: 4rem;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#itemInput {
+    width: 230%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 300ms;
+    width: 240%;
+}
+
+button:hover {
+    background-color: rgb(228, 0, 0);
+}
+
+button:active {
+    background-color: #112b4e;
+}
+
+.main-content-parent {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 5rem;
+}
+
+.main-content {
+    display: block;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.ptext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    padding-left: 1rem;
+    font-weight: 700;
+}
+
+.feedback {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#itemList li {
+    list-style-image: url(../img/pen-to-square-solid.svg);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: underline red;
+    padding-top: 0.5rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.footer a {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
